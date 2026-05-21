@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script compiles a C file without linking
+# Input: C file name in $CFILE
+# Output: Object file with same name but .o extension
+
+gcc -c "$CFILE" -o "${CFILE%.c}.o"
