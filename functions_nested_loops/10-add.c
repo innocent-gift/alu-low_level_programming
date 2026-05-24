@@ -5,9 +5,9 @@
  * @a: first integer
  * @b: second integer
  *
- * Return: sum of a and b
+ * Return: sum
  */
 int add(int a, int b)
 {
-    return (a + b);
+	return (a + b);
 }
